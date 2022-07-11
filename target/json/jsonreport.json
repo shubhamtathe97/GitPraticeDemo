@@ -1,0 +1,632 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: https://amazon.in",
+              "Page title validation successfull. Actual title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+            ],
+            "result": {
+              "duration": 4611038700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate to the home page of the application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_navigate_to_the_home_page_of_the_application_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-11T10:31:18.358Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16131389800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "User is able to Open the browser, navigate to the URL and Search for Product",
+        "description": "",
+        "id": "e-commerce-project-website-health-check;user-is-able-to-open-the-browser--navigate-to-the-url-and-search-for-product",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 1993300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2959546900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Product Searched: Headphone",
+              "Clicked on the GO butotn"
+            ],
+            "result": {
+              "duration": 7965372200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User search for a product \"Headphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Headphone\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_search_for_a_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Page title validation successfull: Amazon.in : Headphone"
+            ],
+            "result": {
+              "duration": 29537600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Search product is displayed",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.search_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: https://amazon.in",
+              "Page title validation successfull. Actual title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+            ],
+            "result": {
+              "duration": 9576030100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate to the home page of the application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_navigate_to_the_home_page_of_the_application_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-11T10:31:50.141Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6007473100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "User is click on the Product and check the Product Details",
+        "description": "",
+        "id": "e-commerce-project-website-health-check;user-is-click-on-the-product-and-check-the-product-details",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5016415000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Product Searched: Laptop",
+              "Clicked on the GO butotn"
+            ],
+            "result": {
+              "duration": 3201596800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User search for a product \"Laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptop\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_search_for_a_product(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Number of products searched: 22",
+              "Click on the first Link in the List. Link Text: Lenovo Ideapad 3 AMD Ryzen 5 5500U 15.6\" FHD Thin \u0026 Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/Backlit Keyboard/2Yr Warranty/Arctic Grey/1.65Kg), 82KU017KIN"
+            ],
+            "result": {
+              "duration": 378138000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User click on any product",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_click_on_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "List of windows found: 2",
+              "Windows handles: [c77d1b36-1359-4c77-b955-591f1be357f6, 58751fb7-8f11-4a7c-a283-263f0d709caf]",
+              "Switched to the new window/tab",
+              "Product Title header is matched and displayed as: Lenovo Ideapad 3 AMD Ryzen 5 5500U 15.6\" FHD Thin \u0026 Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/Backlit Keyboard/2Yr Warranty/Arctic Grey/1.65Kg), 82KU017KIN",
+              "Add to cart Button is displayed",
+              "Switched back to Original tab"
+            ],
+            "result": {
+              "duration": 2341834600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Product Description is displayed in new tab",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.product_description_is_displayed_in_new_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: https://amazon.in",
+              "Page title validation successfull. Actual title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+            ],
+            "result": {
+              "duration": 3889739800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate to the home page of the application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_navigate_to_the_home_page_of_the_application_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-11T10:32:16.686Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9264142200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "User is able to search multiple products",
+        "description": "",
+        "id": "e-commerce-project-website-health-check;user-is-able-to-search-multiple-products;;2",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4617825200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Product Searched: laptop",
+              "Clicked on the GO butotn"
+            ],
+            "result": {
+              "duration": 5765887800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User search for a product \"laptop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"laptop\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_search_for_a_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Page title validation successfull: Amazon.in : laptop"
+            ],
+            "result": {
+              "duration": 18948500,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Search product is displayed",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.search_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@SearchMultiProd"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: https://amazon.in",
+              "Page title validation successfull. Actual title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+            ],
+            "result": {
+              "duration": 3951654000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate to the home page of the application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_navigate_to_the_home_page_of_the_application_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-11T10:32:40.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4284715500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "User is able to search multiple products",
+        "description": "",
+        "id": "e-commerce-project-website-health-check;user-is-able-to-search-multiple-products;;3",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2365711000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Product Searched: earphone",
+              "Clicked on the GO butotn"
+            ],
+            "result": {
+              "duration": 4435532800,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User search for a product \"earphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"earphone\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_search_for_a_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Page title validation successfull: Amazon.in : earphone"
+            ],
+            "result": {
+              "duration": 9973200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Search product is displayed",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.search_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@SearchMultiProd"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Navigation to the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: https://amazon.in",
+              "Page title validation successfull. Actual title: Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+            ],
+            "result": {
+              "duration": 3638221800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User navigate to the home page of the application url",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_navigate_to_the_home_page_of_the_application_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-11T10:32:55.313Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5422652600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "User is able to search multiple products",
+        "description": "",
+        "id": "e-commerce-project-website-health-check;user-is-able-to-search-multiple-products;;4",
+        "after": [
+          {
+            "output": [
+              "Test case is passed, no screen shot captured"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3113679500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Product Searched: computer",
+              "Clicked on the GO butotn"
+            ],
+            "result": {
+              "duration": 4104162200,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User search for a product \"computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"computer\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.visionit.automation.stepdefs.StepDefs.user_search_for_a_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Page title validation successfull: Amazon.in : computer"
+            ],
+            "result": {
+              "duration": 20944300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Search product is displayed",
+            "match": {
+              "location": "com.visionit.automation.stepdefs.StepDefs.search_product_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@SearchMultiProd"
+          }
+        ]
+      }
+    ],
+    "name": "E-commerce project website health check",
+    "description": "",
+    "id": "e-commerce-project-website-health-check",
+    "keyword": "Feature",
+    "uri": "classpath:features/HealthCheck.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
