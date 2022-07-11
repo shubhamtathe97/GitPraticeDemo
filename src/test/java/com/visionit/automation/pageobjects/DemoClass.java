@@ -6,7 +6,7 @@ public class DemoClass {
 		
 		System.out.println("this is newly add class");
 		// TODO Auto-generated method stub
-
+System.out.println("class 2");
 	}
 
 }
